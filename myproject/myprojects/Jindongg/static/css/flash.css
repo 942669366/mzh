@@ -1,0 +1,122 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.loot_shopping {
+    width:1167px;
+    height:300px;
+    margin-left:210px;
+    margin-top:50px;
+    float:left;
+}
+.loot_shopping .loot_shopping_a {
+    width:180px;
+    height:300px;
+    float:left;
+    cursor: pointer;/*移动到到此地，不改变光标*/
+    background-color: #E83632;
+}
+.loot_shopping_a_a1{
+    width: 100%;
+    font-size: 32px;
+    color: white;
+    margin-top: 40px;
+    text-align: center;
+}
+.loot_shopping_a_a2{
+    width: 100%;
+    font-size: 24px;
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+.loot_shopping_a_a3{
+    width: 100%;
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.loot_shopping_a_a4{
+    text-align: center;
+}
+.loot_shopping_a_a5{
+    float: left;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.loot_shopping .loot_shopping_b {
+    width:194px;
+    height:300px;
+    float:left;
+    cursor: pointer;/*移动到到此地，不改变光标*/
+    margin-left: 1px;
+    background-color: #fff;
+}
+.loot_shopping_b:hover{
+    transform: translateY(-3px);
+    transition: all 0.7s;
+    box-shadow: 0px 0px 10px darkgray;/*阴影部分的衍生面积*/
+}
+
+.loot_shopping .loot_shopping_b .sk_it {
+    width:193px;
+    height:300px;
+    float: left;
+}
+.loot_shopping_b img{
+    width: 140px;
+    height: 140px;
+    margin-left: 28px;
+    margin-top: 35px;
+}
+.loot_shopping .loot_shopping_b .sk_it_a1{
+    width: 190px;
+    height: 16px;
+    font-size: 13px;
+    float: left;
+    text-align: left;
+    overflow: hidden;
+    margin-left: 2px;
+    margin-top: 20px;
+    color: #333333;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.loot_shopping .loot_shopping_b p:hover {
+    color: red;
+
+}
+.sk_item_price {
+    margin-top: 30px;
+    width: 162px;
+    height: 20px;
+    float: left;
+    margin-left: 15px;
+
+}
+.sk_item_price_new {
+    float: left;
+    width: 80px;
+    height: 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #e6382f;
+}
+.sk_item_price_origin {
+    float: left;
+    width: 80px;
+    height: 18px;
+    color: #808080;
+    font-size: 14px;
+    text-align: center;
+    border:1px solid red;
+    text-decoration: line-through;
+}
